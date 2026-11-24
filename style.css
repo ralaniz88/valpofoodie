@@ -13,3 +13,5 @@ html{scroll-behavior:smooth}section[id]{scroll-margin-top:100px}.soup-hero{grid-
 .restaurant-cover-link{display:block;overflow:hidden;cursor:pointer}.restaurant-cover-link .restaurant-cover{display:block;width:100%;transition:filter .18s ease}.restaurant-cover-link:hover .restaurant-cover{filter:brightness(.94)}.restaurant-cover-link:focus-visible{outline:3px solid #b68a44;outline-offset:-3px}
 
 .menu-gallery a{cursor:zoom-in}.menu-gallery a:focus-visible{outline:3px solid #b68a44;outline-offset:2px}
+
+.hours-status{font-size:.9rem;font-weight:650;margin:.5rem 0}.is-open{color:#21653d}.is-closed{color:#a13e30}.is-unknown{color:#666}.open-filter{display:flex;align-items:center;gap:.5rem;white-space:nowrap}.open-filter input{width:auto}.filters{flex-wrap:wrap}
