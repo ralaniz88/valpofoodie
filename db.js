@@ -1,0 +1,1 @@
+const db=supabase.createClient('https://ldnstnxrykqvnvotafml.supabase.co','sb_publishable_2Q8QIsTwZr7bndNZ4ACOCg_Uw06Jqow');
