@@ -1,1 +1,29 @@
-{"cleanUrls":true,"rewrites":[{"source":"/restaurants/:slug","destination":"/restaurant"}]}
+{
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/restaurants/:slug",
+      "destination": "/api/seo?slug=:slug"
+    },
+    {
+      "source": "/sitemap.xml",
+      "destination": "/api/seo?sitemap=1"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/management.html",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    }
+  ],
+  "functions": {
+    "api/seo.js": {
+      "includeFiles": "restaurant.html"
+    }
+  }
+}
