@@ -15,3 +15,5 @@ html{scroll-behavior:smooth}section[id]{scroll-margin-top:100px}.soup-hero{grid-
 .menu-gallery a{cursor:zoom-in}.menu-gallery a:focus-visible{outline:3px solid #b68a44;outline-offset:2px}
 
 .hours-status{font-size:.9rem;font-weight:650;margin:.5rem 0}.is-open{color:#21653d}.is-closed{color:#a13e30}.is-unknown{color:#666}.open-filter{display:flex;align-items:center;gap:.5rem;white-space:nowrap}.open-filter input{width:auto}.filters{flex-wrap:wrap}
+
+.compact-hours{margin:12px 0;padding:10px 14px;border:1px solid #ddd9cd;border-radius:10px}.compact-hours summary{cursor:pointer;font-weight:700;font-size:.95rem}.hours-preview{display:block;font-weight:400;font-size:.85rem;line-height:1.45;margin:3px 0 0 17px}.hours-line{display:flex;justify-content:space-between;gap:12px;font-size:.85rem;line-height:1.4;padding:3px 0;max-width:360px}.compact-hours details[open] summary{margin-bottom:8px}.compact-hours .hours-notice{font-size:.85rem;line-height:1.4;margin:6px 0 0}
