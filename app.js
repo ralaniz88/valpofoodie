@@ -4,3 +4,4 @@ const featured=['Sandwiches & Subs','Vegan & Plant-Based','Pizza','Burgers','Mex
 $('plant-nav').onclick=()=>{$('category').value='Vegan & Plant-Based';$('search').value='';showRestaurants();$('directory').scrollIntoView({behavior:'smooth'})};
 function resetDirectory(){$('category').value=categories[0];$('search').value='';showRestaurants()}$('show-all').onclick=resetDirectory;$('directory-nav').onclick=resetDirectory;
 $('hero-directory').onclick=resetDirectory;
+$('quick-directory').onclick=resetDirectory;
