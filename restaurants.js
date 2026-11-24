@@ -25,7 +25,7 @@ Picante Mexican Cuisine|242-8419|Mexican
 Nextdoor at Birdie’s|312-5512|American,Pub & Bar
 Amici Grill & Pizzeria|286-6293|Pizza
 Valpo Velvet|464-4141|Desserts,American
-Super Submarine|595-7827|Sandwiches & Subs,American
+Super Submarine|595-7827|Sandwiches & Subs,American,Vegan & Plant-Based
 Albano’s Pasta Shop|242-9160|Italian
 Beggars Pizza|299-2224|Pizza
 Geitonia Greek Grill|286-7183|Greek & Mediterranean
