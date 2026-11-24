@@ -1,0 +1,2 @@
+# Valpo Foodie
+Static design prototype. Upload all files at the repository root. Vercel framework preset: Other; no build command or output directory override needed. Open index.html locally to preview. Sample soups are not live. Owner controls are local, temporary demonstrations; duration selection does not yet implement expiration. No authentication, database or payment processing is included. Do not use for real restaurant accounts until a secure backend is implemented.
