@@ -7,11 +7,11 @@ Public demo controls removed. Four restaurant soup groups are illustrative, not 
 
 ### Category photography
 Representative stock photos (Unsplash License), not photos of specific listed restaurants:
-- Sandwiches & Subs: https://unsplash.com/photos/PlLvvTs-kxU
+- Sandwiches & Subs: https://unsplash.com/photos/cqFX7i-TBos
 - Vegan & Plant-Based: https://unsplash.com/photos/IGfIGP5ONV0
 - Pizza: https://unsplash.com/photos/xIqVfW8XUt4
 - Burgers: https://unsplash.com/photos/Tqr2yaJvksM
-- Mexican: https://unsplash.com/photos/RSQmkLkpWLY
+- Mexican: https://unsplash.com/photos/BQnOq0ThJMk
 - Italian: https://unsplash.com/photos/iGfomZkMpeM
 - Breakfast & Brunch: https://unsplash.com/photos/HzVHlwvQlyw
 - Bakery & Coffee: https://unsplash.com/photos/NCelOVBjIJo
