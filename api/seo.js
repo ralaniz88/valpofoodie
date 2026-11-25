@@ -8,7 +8,7 @@ const json=s=>JSON.stringify(s).replace(/</g,'\\u003c');
 module.exports=async(req,res)=>{try{
 const response=await fetch(db+'/rest/v1/restaurants?select=*&approved=eq.true&is_example=eq.false',{headers:{apikey:key}});if(!response.ok)throw Error('Directory unavailable');const rows=await response.json();
 res.setHeader('Cache-Control','public, s-maxage=300, stale-while-revalidate=600');
-if(req.query.sitemap==='1'){res.setHeader('Content-Type','application/xml; charset=utf-8');return res.end('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+[base+'/',...rows.map(r=>base+'/restaurants/'+slug(r.name))].map(u=>'<url><loc>'+esc(u)+'</loc></url>').join('')+'</urlset>')}
+if(req.query.sitemap==='1'){res.setHeader('Content-Type','application/xml; charset=utf-8');return res.end('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+[base+'/',base+'/dinner',base+'/about',...rows.map(r=>base+'/restaurants/'+slug(r.name))].map(u=>'<url><loc>'+esc(u)+'</loc></url>').join('')+'</urlset>')}
 const r=rows.find(r=>slug(r.name)===req.query.slug);if(!r){res.statusCode=404;res.setHeader('X-Robots-Tag','noindex');return res.end('Restaurant not found')}
 const url=base+'/restaurants/'+slug(r.name),title=r.name+' | Menu, Hours & Ordering | Valpo Foodie',description=(r.name+' in Valparaiso, Indiana. '+(r.description||'Explore restaurant details, menu, business hours and available ordering links.') ).slice(0,300);
 const image=safe(r.cover_url)||safe(r.logo_url);
